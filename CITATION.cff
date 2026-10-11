@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite this research preprint."
+type: article
+title: "Deadline aware hybrid optimization for ISP traffic engineering: conditional guarantees and a reproducible reference model"
+authors:
+  - family-names: Acosta
+    given-names: León
+version: 0.1.0
+date-released: 2026-10-11
+abstract: "A conditional mathematical specification and reference implementation for deadline-aware hybrid traffic engineering. No quantum advantage or production validation is claimed."

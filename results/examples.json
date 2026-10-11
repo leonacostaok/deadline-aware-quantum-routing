@@ -1,0 +1,36 @@
+{
+  "certificate": {
+    "delta": 0.05,
+    "lower_bounds": [
+      0.25638347758356034,
+      -0.04361652241643972
+    ],
+    "menu_size": 2,
+    "n": 1000,
+    "selected": 0
+  },
+  "deadline": {
+    "expired_net_loss_seconds": -0.2,
+    "fast_net_loss_seconds": 2.6,
+    "slow_net_loss_seconds": 1.3
+  },
+  "kind": "constructed examples; no quantum hardware or real traffic measurements",
+  "qubo": {
+    "all_minima_feasible": true,
+    "minimizer_count": 1,
+    "minimum_energy": 0,
+    "penalty": 4,
+    "states_enumerated": 256,
+    "variables": 8
+  },
+  "transition": {
+    "direct_envelope": [
+      2,
+      2,
+      0
+    ],
+    "direct_safe": false,
+    "endpoint_allocations_feasible": true,
+    "staged_safe": true
+  }
+}

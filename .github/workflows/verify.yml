@@ -1,0 +1,13 @@
+name: verify reference results
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: run exact reference checks
+        run: python3 -m unittest discover -s tests -v
+      - name: verify generated results
+        run: python3 scripts/reproduce.py --check
